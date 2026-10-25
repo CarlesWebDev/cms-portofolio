@@ -1,5 +1,6 @@
 "use client";
-import { useCallback, useRef, useState, useActionState } from "react";
+import { useCallback, useEffect, useRef, useState, useActionState } from "react";
+import { useRouter } from "next/navigation";
 import { uploadMedia } from "@/lib/media-upload";
 import { deleteMedia, type MediaActionState } from "@/lib/actions/media";
 import type { Media } from "@/lib/types";
