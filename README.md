@@ -1,4 +1,4 @@
-# CMS Portofolio Carles Marvin
+# CMS Portofolio
 
 Panel admin di `/admin` untuk mengelola seluruh konten portofolio tanpa ngoding.
 Next.js 16 (App Router, Cache Components) + Supabase + Tailwind, dengan tipografi
